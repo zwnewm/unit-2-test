@@ -11,7 +11,6 @@ public class KillCilantro {
    public static String killCilantro(String str) {
       String newString = "";
       int index = str.indexOf("cilantro");
-      System.out.println(index);
       
       for(int i = 0; i < str.length(); i++) {
       
