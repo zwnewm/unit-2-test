@@ -2,7 +2,7 @@ public class KillCilantro {
    public static void main(String[] args) {
    
    
-      String result = killCilantro("This is cilantro and cilantro and cilantro woohoo  ");
+      String result = killCilantro("This is cilantro and cilantro and cilantro");
    
       System.out.println(result);
    
@@ -19,7 +19,9 @@ public class KillCilantro {
          if(i == index) {
             String substring = str.substring(0, i);
             newString = substring + "parsley";
-            
+            String otherSub = str.substring(i + 8);
+            System.out.println(otherSub);
+            index = otherSub.indexOf("cilantro");
          
          }
          
